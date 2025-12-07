@@ -7,7 +7,7 @@
   "module": "src/index.js",
   "scripts": {
     "lint": "eslint --cache --fix",
-    "dev": "cd src-ui && vite",
+    "dev": "cd src-ui && vite dev",
     "build": "pnpm build:ui && pnpm build:package",
     "build:ui": "cd src-ui && vite build",
     "build:package": "node ./build/index.js"
@@ -47,8 +47,9 @@
     "postcss": "^8.4.45",
     "prismjs": "^1.29.0",
     "quasar": "workspace:*",
-    "vite": "^7.1.6",
+    "vite": "catalog:",
     "vue": "3.5.20",
-    "vue-router": "^4.4.5"
+    "vue-router": "^4.4.5",
+    "@voidzero-dev/vite-plus": "catalog:"
   }
 }

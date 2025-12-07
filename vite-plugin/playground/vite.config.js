@@ -1,6 +1,6 @@
 import { fileURLToPath } from 'node:url'
 import { join } from 'node:path'
-import { defineConfig } from 'vite'
+import { defineConfig } from '@voidzero-dev/vite-plus'
 import vue from '@vitejs/plugin-vue'
 import vitePluginChecker from 'vite-plugin-checker'
 

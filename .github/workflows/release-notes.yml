@@ -1,5 +1,8 @@
 name: Generate and Publish Release Notes JSON
 
+env:
+  VP_TOKEN: ${{ secrets.VP_TOKEN }}
+
 on:
   workflow_dispatch:
 

@@ -1,5 +1,8 @@
 name: Build types
 
+env:
+  VP_TOKEN: ${{ secrets.VP_TOKEN }}
+
 on:
   push:
     branches:
