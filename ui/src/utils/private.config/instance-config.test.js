@@ -1,4 +1,4 @@
-import { describe, test, expect } from 'vitest'
+import { describe, test, expect } from '@voidzero-dev/vite-plus/test'
 import { mount, config } from '@vue/test-utils'
 
 import { globalConfig, globalConfigIsFrozen, freezeGlobalConfig } from './instance-config.js'

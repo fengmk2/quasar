@@ -17,9 +17,9 @@
     "dev": "cd ./playground && pnpm dev",
     "build": "node ./build/clean.js && rollup --config ./build/rollup.config.js",
     "test": "pnpm test:usage && pnpm test:runtime",
-    "test:watch": "vitest run --watch --config ./testing/runtime/vitest.config.js",
-    "test:usage": "vitest run --config ./testing/usage/vitest.config.js",
-    "test:runtime": "vitest run --config ./testing/runtime/vitest.config.js"
+    "test:watch": "vite test run --watch --config ./testing/runtime/vitest.config.js",
+    "test:usage": "vite test run --config ./testing/usage/vitest.config.js",
+    "test:runtime": "vite test run --config ./testing/runtime/vitest.config.js"
   },
   "files": [
     "dist",
@@ -51,10 +51,11 @@
     "pug": "^3.0.3",
     "quasar": "workspace:*",
     "rollup": "^4.24.2",
-    "vite": "^7.1.6",
+    "vite": "catalog:",
     "vite-plugin-checker": "^0.10.3",
-    "vitest": "^4.0.15",
-    "vue": "3.5.20"
+    "vitest": "catalog:",
+    "vue": "3.5.20",
+    "@voidzero-dev/vite-plus": "catalog:"
   },
   "peerDependencies": {
     "@vitejs/plugin-vue": "^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0",

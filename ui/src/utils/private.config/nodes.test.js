@@ -1,4 +1,4 @@
-import { describe, test, expect, afterEach } from 'vitest'
+import { describe, test, expect, afterEach } from '@voidzero-dev/vite-plus/test'
 
 import { createGlobalNode, removeGlobalNode, changeGlobalNodesTarget } from './nodes.js'
 import { globalConfig } from './instance-config.js'

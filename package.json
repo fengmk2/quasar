@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "eslint": "catalog:",
-    "eslint-config-quasar": "workspace:*"
+    "eslint-config-quasar": "workspace:*",
+    "@voidzero-dev/vite-plus": "catalog:"
   }
 }

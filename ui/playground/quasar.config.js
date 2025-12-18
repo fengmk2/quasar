@@ -3,7 +3,7 @@
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-import { mergeConfig } from 'vite'
+import { mergeConfig } from '@voidzero-dev/vite-plus'
 import { defineConfig } from '#q-app/wrappers'
 
 const rootFolder = fileURLToPath(new URL('.', import.meta.url))

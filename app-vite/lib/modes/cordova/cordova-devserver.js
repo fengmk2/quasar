@@ -1,4 +1,4 @@
-import { createServer } from 'vite'
+import { createServer } from '@voidzero-dev/vite-plus'
 
 import { AppDevserver } from '../../app-devserver.js'
 import { CordovaConfigFile } from './config-file.js'

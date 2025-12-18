@@ -7,7 +7,7 @@ import { mount, flushPromises } from '@vue/test-utils'
 import {
   describe, test, expect, vi,
   beforeEach, afterEach, onTestFinished
-} from 'vitest'
+} from '@voidzero-dev/vite-plus/test'
 
 import QDialog from './QDialog.js'
 import { getRouter } from 'testing/runtime/router.js'

@@ -1,4 +1,4 @@
-import { Plugin, UserConfig as ViteUserConfig } from "vite";
+import { Plugin, UserConfig as ViteUserConfig } from "@voidzero-dev/vite-plus";
 import { Options as VuePluginOptions } from "@vitejs/plugin-vue"
 import { QuasarHookParams } from "./conf";
 import { CompilerOptions, TypeAcquisition } from "typescript";

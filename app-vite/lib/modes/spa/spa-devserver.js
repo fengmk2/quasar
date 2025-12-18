@@ -1,4 +1,4 @@
-import { createServer } from 'vite'
+import { createServer } from '@voidzero-dev/vite-plus'
 
 import { AppDevserver } from '../../app-devserver.js'
 import { openBrowser } from '../../utils/open-browser.js'

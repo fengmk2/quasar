@@ -1,4 +1,4 @@
-import { describe, expect, test, vi, afterEach } from 'vitest'
+import { describe, expect, test, vi, afterEach } from '@voidzero-dev/vite-plus/test'
 import { mount } from '@vue/test-utils'
 
 afterEach(() => {

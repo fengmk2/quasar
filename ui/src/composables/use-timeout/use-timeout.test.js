@@ -1,4 +1,4 @@
-import { describe, test, expect, vi, beforeEach, afterEach } from 'vitest'
+import { describe, test, expect, vi, beforeEach, afterEach } from '@voidzero-dev/vite-plus/test'
 import { mount } from '@vue/test-utils'
 import { defineComponent } from 'vue'
 

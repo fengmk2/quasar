@@ -1,4 +1,4 @@
-import { describe, test, expect } from 'vitest'
+import { describe, test, expect } from '@voidzero-dev/vite-plus/test'
 
 import noopSsrDirectiveTransform from './noop-ssr-directive-transform.js'
 

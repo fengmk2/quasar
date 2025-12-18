@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils'
-import { describe, test, expect } from 'vitest'
+import { describe, test, expect } from '@voidzero-dev/vite-plus/test'
 import { computed, defineComponent } from 'vue'
 
 import useHistory from './use-history.js'

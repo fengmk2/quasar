@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest'
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test'
 import { mount } from '@vue/test-utils'
 
 import 'quasar/src/css/index.sass'

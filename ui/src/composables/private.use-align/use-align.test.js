@@ -1,4 +1,4 @@
-import { describe, test, expect } from 'vitest'
+import { describe, test, expect } from '@voidzero-dev/vite-plus/test'
 
 import useAlign, { alignMap, alignValues, useAlignProps } from './use-align.js'
 

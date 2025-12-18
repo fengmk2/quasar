@@ -1,4 +1,4 @@
-import { describe, test, expect, vi } from 'vitest'
+import { describe, test, expect, vi } from '@voidzero-dev/vite-plus/test'
 import { mount, config } from '@vue/test-utils'
 
 import AddressbarColor from './AddressbarColor.js'

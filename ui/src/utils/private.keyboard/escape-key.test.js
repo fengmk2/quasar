@@ -1,4 +1,4 @@
-import { describe, test, expect, vi, afterEach } from 'vitest'
+import { describe, test, expect, vi, afterEach } from '@voidzero-dev/vite-plus/test'
 
 import { addEscapeKey, removeEscapeKey } from './escape-key.js'
 

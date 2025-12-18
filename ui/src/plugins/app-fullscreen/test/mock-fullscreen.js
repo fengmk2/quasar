@@ -1,4 +1,4 @@
-import { vi, onTestFinished } from 'vitest'
+import { vi, onTestFinished } from '@voidzero-dev/vite-plus/test'
 
 /**
  * jsdom does not support Fullscreen API,

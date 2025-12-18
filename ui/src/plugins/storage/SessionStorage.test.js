@@ -1,4 +1,4 @@
-import { describe, test, expect } from 'vitest'
+import { describe, test, expect } from '@voidzero-dev/vite-plus/test'
 import { mount, config } from '@vue/test-utils'
 
 import SessionStorage from './SessionStorage.js'

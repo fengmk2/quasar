@@ -1,5 +1,4 @@
-// eslint-disable-next-line n/no-extraneous-import
-import { defineWorkspace } from 'vitest/config'
+import { defineWorkspace } from '@voidzero-dev/vite-plus'
 
 export default defineWorkspace([
   './vite-plugin/testing/usage/vitest.config.js',

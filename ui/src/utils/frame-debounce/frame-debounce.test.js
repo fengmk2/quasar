@@ -1,7 +1,7 @@
 import {
   describe, test, expect, vi,
   beforeEach, afterEach
-} from 'vitest'
+} from '@voidzero-dev/vite-plus/test'
 
 import frameDebounce from './frame-debounce.js'
 

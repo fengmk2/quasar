@@ -1,4 +1,4 @@
-import { afterEach, describe, expect, test, vi } from 'vitest'
+import { afterEach, describe, expect, test, vi } from '@voidzero-dev/vite-plus/test'
 import { quasar } from '../../../src/index'
 
 describe('quasar plugin', () => {

@@ -1,4 +1,4 @@
-import { describe, test, expect, vi, onTestFinished } from 'vitest'
+import { describe, test, expect, vi, onTestFinished } from '@voidzero-dev/vite-plus/test'
 import { ref } from 'vue'
 
 import dom, { getElement, childHasFocus } from './dom.js'

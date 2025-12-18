@@ -1,4 +1,4 @@
-import { describe, test, expect, afterEach } from 'vitest'
+import { describe, test, expect, afterEach } from '@voidzero-dev/vite-plus/test'
 import { mount, config } from '@vue/test-utils'
 
 // jsdom hack

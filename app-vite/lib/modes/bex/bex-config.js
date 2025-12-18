@@ -1,6 +1,6 @@
 import { join } from 'node:path'
 
-import { mergeConfig as mergeViteConfig } from 'vite'
+import { mergeConfig as mergeViteConfig } from '@voidzero-dev/vite-plus'
 
 import {
   createViteConfig, extendViteConfig,

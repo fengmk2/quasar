@@ -1,6 +1,6 @@
 import { quasar as quasarVitePlugin } from '@quasar/vite-plugin'
 import vueVitePlugin from '@vitejs/plugin-vue'
-import { mergeConfig } from 'vite'
+import { mergeConfig } from '@voidzero-dev/vite-plus'
 import { merge } from 'webpack-merge'
 
 import { cliPkg } from './utils/cli-runtime.js'

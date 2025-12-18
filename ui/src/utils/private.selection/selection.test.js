@@ -1,4 +1,4 @@
-import { describe, test, expect, onTestFinished } from 'vitest'
+import { describe, test, expect, onTestFinished } from '@voidzero-dev/vite-plus/test'
 
 import { clearSelection } from './selection.js'
 

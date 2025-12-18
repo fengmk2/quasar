@@ -1,4 +1,4 @@
-import { normalizePath } from 'vite'
+import { normalizePath } from '@voidzero-dev/vite-plus'
 
 import { getViteConfig } from './vite-config.js'
 import { vueTransform } from './vue-transform.js'

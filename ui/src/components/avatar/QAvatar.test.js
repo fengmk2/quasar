@@ -1,5 +1,5 @@
 import { mount, flushPromises } from '@vue/test-utils'
-import { describe, test, expect } from 'vitest'
+import { describe, test, expect } from '@voidzero-dev/vite-plus/test'
 
 import QAvatar from './QAvatar.js'
 import { useSizeDefaults } from 'quasar/src/composables/private.use-size/use-size.js'

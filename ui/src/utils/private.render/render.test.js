@@ -1,4 +1,4 @@
-import { describe, test, expect } from 'vitest'
+import { describe, test, expect } from '@voidzero-dev/vite-plus/test'
 import { mount, flushPromises } from '@vue/test-utils'
 import { ref } from 'vue'
 

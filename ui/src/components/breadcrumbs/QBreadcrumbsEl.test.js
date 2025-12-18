@@ -1,5 +1,5 @@
 import { mount, flushPromises } from '@vue/test-utils'
-import { describe, test, expect, vi } from 'vitest'
+import { describe, test, expect, vi } from '@voidzero-dev/vite-plus/test'
 
 import QBreadcrumbsEl from './QBreadcrumbsEl.js'
 import { getRouter } from 'testing/runtime/router.js'

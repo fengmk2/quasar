@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs'
 import { join, isAbsolute } from 'node:path'
 import { pathToFileURL } from 'node:url'
-import { createServer, createServerModuleRunner } from 'vite'
+import { createServer, createServerModuleRunner } from '@voidzero-dev/vite-plus'
 import chokidar from 'chokidar'
 import debounce from 'lodash/debounce.js'
 import serialize from 'serialize-javascript'

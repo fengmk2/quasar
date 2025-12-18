@@ -1,7 +1,7 @@
 import { join } from 'node:path'
 import fse from 'fs-extra'
 
-import { build as viteBuild } from 'vite'
+import { build as viteBuild } from '@voidzero-dev/vite-plus'
 import { build as esBuild, context as esContextBuild } from 'esbuild'
 
 import { progress } from './utils/logger.js'

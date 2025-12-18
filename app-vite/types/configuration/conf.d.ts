@@ -12,7 +12,7 @@ import { QuasarMobileConfiguration } from "./mobile-conf";
 import { QuasarBexConfiguration } from "./bex";
 
 import { Options as OpenOptions } from "open";
-import { ServerOptions as ViteServerOptions } from "vite";
+import { ServerOptions as ViteServerOptions } from "@voidzero-dev/vite-plus";
 import { QuasarContext } from "./context";
 
 type DevServerOptions = Omit<ViteServerOptions, "open" | "https"> & {

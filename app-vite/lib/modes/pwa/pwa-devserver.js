@@ -1,4 +1,4 @@
-import { createServer } from 'vite'
+import { createServer } from '@voidzero-dev/vite-plus'
 import chokidar from 'chokidar'
 import debounce from 'lodash/debounce.js'
 

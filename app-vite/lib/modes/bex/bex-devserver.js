@@ -2,7 +2,7 @@ import { join } from 'node:path'
 import fse from 'fs-extra'
 import debounce from 'lodash/debounce.js'
 import chokidar from 'chokidar'
-import { createServer } from 'vite'
+import { createServer } from '@voidzero-dev/vite-plus'
 
 import { AppDevserver } from '../../app-devserver.js'
 import { quasarBexConfig } from './bex-config.js'

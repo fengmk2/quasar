@@ -1,7 +1,7 @@
 // @ts-ignore
 /// <reference types="@quasar/vite-plugin" />
 
-import type { Plugin } from "vite";
+import type { Plugin } from "@voidzero-dev/vite-plus";
 
 export interface QuasarPluginOpts {
   /**
