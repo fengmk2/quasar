@@ -22,9 +22,9 @@ packages:
 
 catalog:
   eslint: ^9.37.0
-  vite: npm:@voidzero-dev/vite-plus-core@latest
-  vitest: npm:@voidzero-dev/vite-plus-test@latest
-  '@voidzero-dev/vite-plus': latest
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-7ee085e9ae3b2ccda8287c542bf4b23f324b910f
+  vitest: npm:@voidzero-dev/vite-plus-test@0.0.0-7ee085e9ae3b2ccda8287c542bf4b23f324b910f
+  '@voidzero-dev/vite-plus': 0.0.0-7ee085e9ae3b2ccda8287c542bf4b23f324b910f
 
 onlyBuiltDependencies:
   - '@parcel/watcher'
