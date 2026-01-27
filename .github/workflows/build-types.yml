@@ -18,22 +18,22 @@ on:
       - 'ui/src/**/*.json'
       - '!ui/src/api-file-example.json'
   pull_request:
-    types:
-      - opened
-      - synchronize
-    paths:
-      - '.github/workflows/build-types.yml'
+    # types:
+    #   - opened
+    #   - synchronize
+    # paths:
+    #   - '.github/workflows/build-types.yml'
 
-      # We don't need to hunt for every possible case, these should cover almost all cases
-      - 'ui/package.json'
-      - 'ui/build/build.types.js'
-      - 'ui/build/build.javascript.js'
+    #   # We don't need to hunt for every possible case, these should cover almost all cases
+    #   - 'ui/package.json'
+    #   - 'ui/build/build.types.js'
+    #   - 'ui/build/build.javascript.js'
 
-      # Manually authored .d.ts files
-      - 'ui/types/**'
-      # JSON API files
-      - 'ui/src/**/*.json'
-      - '!ui/src/api-file-example.json'
+    #   # Manually authored .d.ts files
+    #   - 'ui/types/**'
+    #   # JSON API files
+    #   - 'ui/src/**/*.json'
+    #   - '!ui/src/api-file-example.json'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
