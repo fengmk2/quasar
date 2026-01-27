@@ -1,5 +1,9 @@
-import { describe, expect, test, vi } from 'vitest'
+import { afterEach, describe, expect, test, vi } from 'vitest'
 import { quasar } from '../../../src/index'
+
+afterEach(() => {
+  vi.restoreAllMocks()
+})
 
 describe('quasar plugin', () => {
   test('should return default plugins', () => {
