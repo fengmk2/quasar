@@ -2,14 +2,14 @@ name: UI tests
 
 on:
   pull_request:
-    types: [opened, synchronize]
-    branches:
-      - 'dev'
-    paths:
-      - '.github/workflows/tests-on-pr.yml'
-      - 'ui/**/*.js'
-      - 'ui/package.json'
-      - 'ui/playground/package.json'
+    # types: [opened, synchronize]
+    # branches:
+    #   - 'dev'
+    # paths:
+    #   - '.github/workflows/tests-on-pr.yml'
+    #   - 'ui/**/*.js'
+    #   - 'ui/package.json'
+    #   - 'ui/playground/package.json'
 
 jobs:
   build:
