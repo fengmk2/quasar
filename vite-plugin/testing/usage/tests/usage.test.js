@@ -1,7 +1,10 @@
-import { describe, expect, test, vi } from 'vitest'
+import { afterEach, describe, expect, test, vi } from 'vitest'
 import { quasar } from '../../../src/index'
 
 describe('quasar plugin', () => {
+  afterEach(() => {
+    vi.restoreAllMocks()
+  })
   test('should return default plugins', () => {
     const plugins = quasar()
     expect(plugins.length).toBe(3)
