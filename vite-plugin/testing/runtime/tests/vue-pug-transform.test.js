@@ -1,9 +1,5 @@
-import { describe, expect, test, vi, afterEach } from 'vitest'
+import { describe, expect, test, vi } from 'vitest'
 import { mount } from '@vue/test-utils'
-
-afterEach(() => {
-  vi.restoreAllMocks()
-})
 
 describe('Vue + Pug Transformations', () => {
   test.each([

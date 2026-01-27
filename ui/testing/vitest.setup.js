@@ -1,5 +1,5 @@
 import { config } from '@vue/test-utils'
-import { expect } from 'vitest'
+import { expect, afterEach } from 'vitest'
 
 import { isRef, isReactive } from 'vue'
 
@@ -153,4 +153,11 @@ expect.extend({
   $arrayValues,
   $ref,
   $reactive
+})
+
+// Add afterEach hook for Vitest v4 mock cleanup
+import { vi } from 'vitest'
+
+afterEach(() => {
+  vi.restoreAllMocks()
 })
