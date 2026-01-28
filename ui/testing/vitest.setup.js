@@ -1,5 +1,6 @@
 import { config } from '@vue/test-utils'
 import { expect } from 'vitest'
+import { vi } from 'vitest'
 
 import { isRef, isReactive } from 'vue'
 
@@ -30,12 +31,17 @@ config.plugins.DOMWrapper.install(wrapper => {
 // jsdom not supplying this
 window.scrollTo = () => {}
 
+// Restore all mocks after each test to handle vitest v4 behavior changes
+afterEach(() => {
+  vi.restoreAllMocks()
+})
+
 /**
  * Examples:
  *   expect(variable).$any([ 'x', 'y', 1, /z/, ... ])
  *   expect(variable).$any([ expect.any(String), expect.any(Number) ])
  *   expect.$any([ 'x', 'y', 1, /z/, ... ])
- *   expect.$any([ expect.any(String), expect.any(Number), 'xyz' ])
+ *   expect.$any([ 'x', 'y', 1, /z/, ... ])
  */
 function $any (received, expectedList) {
   if (Array.isArray(expectedList) === false) {

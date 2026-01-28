@@ -1,5 +1,10 @@
-import { describe, expect, test, vi } from 'vitest'
+import { describe, expect, test, vi, afterEach } from 'vitest'
 import { quasar } from '../../../src/index'
+
+// Restore all mocks after each test to handle vitest v4 behavior changes
+afterEach(() => {
+  vi.restoreAllMocks()
+})
 
 describe('quasar plugin', () => {
   test('should return default plugins', () => {
