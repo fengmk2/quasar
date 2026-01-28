@@ -49,7 +49,11 @@ export default defineConfig(() => {
       ],
       setupFiles: [
         './testing/runtime/vitest.setup.js'
-      ]
+      ],
+      coverage: {
+        include: ['src/**/*.{js,ts}'],
+        exclude: ['**/*.d.ts', '**/*.spec.*', '**/*.mock.*', 'playground/**']
+      }
     }
   }
 })
